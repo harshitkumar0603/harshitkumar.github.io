@@ -90,7 +90,8 @@ var routes = [
     { path: 'tracks-by-mood/:mood', component: _by_mood_by_mood_component__WEBPACK_IMPORTED_MODULE_3__["ByMoodComponent"] },
     { path: 'tracks-by-genre', component: _by_genre_by_genre_component__WEBPACK_IMPORTED_MODULE_1__["ByGenreComponent"] },
     { path: 'tracksgenre', component: _by_genre_by_genre_component__WEBPACK_IMPORTED_MODULE_1__["ByGenreComponent"] },
-    { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] }
+    { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] },
+    { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"] }
 ];
 var AppRoutingModule = _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forRoot(routes);
 
